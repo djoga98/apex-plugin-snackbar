@@ -1,0 +1,41 @@
+{
+  "name": "APEX Material Design Snackbar",
+  "version": "1.0",
+  "description": "Oracle APEX Dynamic Action Plugin - APEX Material Design Snackbar",
+  "keywords": [
+    "oracle",
+    "apex",
+    "plugin",
+    "dynamic_action",
+    "snackbar",
+    "material",
+    "design"
+  ],
+  "homepage": "https://github.com/djoga98/apex-plugin-snackbar",
+  "bugs": {
+    "url": "https://github.com/djoga98/apex-plugin-snackbar/issues",
+    "email": "djogicslavko@gmail.com"
+  },
+  "license": "MIT",
+  "commercial": "No",
+  "author": {
+    "name": "Slavko Djogic",
+    "email": "djogicslavko@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djoga98/apex-plugin-snackbar.git"
+  },
+  "oracle": {
+    "versions": ["18.0.0.0"],
+    "apex": {
+      "versions": ["20.2.0"],
+      "plugin": {
+        "internalName": "COM.DJOGICSLAVKO.APEXSNACKBAR",
+        "type": "dynamic action",
+        "demo": "https://apex.oracle.com/pls/apex/f?p=57743:1",
+        "previewImage": "https://github.com/djoga98/apex-plugin-snackbar/blob/main/apex_snackbar.png"
+      }
+    }
+  }
+}
