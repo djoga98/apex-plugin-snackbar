@@ -1,0 +1,94 @@
+.apex-snackbar {
+    -webkit-transition-property: opacity, bottom, left, right, width, margin, border-radius;
+    -o-transition-property: opacity, bottom, left, right, width, margin, border-radius;
+    transition-property: opacity, bottom, left, right, width, margin, border-radius;
+    -webkit-transition-duration: 0.5s;
+            -o-transition-duration: 0.5s;
+       transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+       transition-timing-function: ease;
+    font-family: inherit;
+    font-size: 14px;
+    min-height: 14px;
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+        justify-content: space-between;
+    -webkit-box-align: center;
+            -ms-flex-align: center;
+        align-items: center;
+    line-height: 22px;
+    padding: 18px 24px;
+    bottom: 0px;
+    opacity: 0;
+}
+
+@media (min-width: 640px) {
+    .apex-snackbar {
+    /*
+    Desktop:
+        Single-line snackbar height: 48 dp tall
+        Minimum width: 288 dp
+        Maximum width: 568 dp
+        2 dp rounded corner
+        Text: Roboto Regular 14 sp
+        Action button: Roboto Medium 14 sp, all-caps text
+        Default background fill: #323232 100%
+    */
+    min-width: 288px;
+    max-width: 568px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    border-radius: 2px;
+    margin: 24px;
+    bottom: -100px;
+    }
+}
+
+@media (max-width: 640px) {
+    .apex-snackbar {
+    /*
+    Mobile:
+        Single-line snackbar height: 48 dp
+        Multi-line snackbar height: 80 dp
+        Text: Roboto Regular 14 sp
+        Action button: Roboto Medium 14 sp, all-caps text
+        Default background fill: #323232 100%  
+    */
+    left: 0px;
+    right: 0px;
+    }
+}
+
+.apex-snackbar .action {
+    background: inherit;
+    display: inline-block;
+    border: none;
+    font-size: inherit;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 24px;
+    padding: 0px;
+    min-width: -webkit-min-content;
+    min-width: -moz-min-content;
+    min-width: min-content;
+    cursor: pointer;
+    outline: none;
+}
+
+.snackbar-left {
+    left: 0px !important;
+}
+
+.snackbar-center {
+    left: 50% !important;
+    transform: translate(-50%) !important;
+}
+
+.snackbar-right {
+    right: 0px !important;
+}
