@@ -9,6 +9,9 @@
 ## Install
 - Import plugin file "dynamic_action_plugin_com_djogicslavko_apexsnackbar.sql" from **dist** directory into your application
 
+## Plugin Settings
+![](https://github.com/djoga98/apex-plugin-snackbar/blob/main/how_to_use.png)
+
 ## Changelog
 #### 1.0.0 - Initial Release
 
